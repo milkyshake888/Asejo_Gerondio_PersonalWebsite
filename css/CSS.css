@@ -6,7 +6,7 @@ body{
 div{
     background-color: black;
     color: white;
-    margin: 100px 0 100px 0;
+    margin: 100px 0 50px 0;
     padding: 20px;
 }
 #header{
@@ -18,4 +18,11 @@ div{
 	top:0px;
 	left:50%;
 	margin: 0 0 0 -475px;
+}
+#container{
+	width:950px;
+	margin:0px auto 300px auto;
+	background:url(images/body-bg.png);
+	overflow:auto;
+	padding-bottom:100px;
 }
