@@ -8,7 +8,7 @@ div{
     
     background-color: black;
     color: white;
-    margin: 100px 0 100px 0;
+    margin: 90px 0 90px 0;
     padding: 20px;
 }
 #header{
@@ -21,6 +21,17 @@ div{
 	left:50%;
 	margin: 0 0 0 -475px;
 }
+#header #main-menu{
+	float:right;
+ 	padding-top:45px;
+}
+#header #main-menu li{
+	float:left;
+	list-style:none;
+	margin-left:27px;
+	font: 400 16px/20px  Georgia, serif;
+}
+
 #container{
 	width:950px;
 	margin:0px auto 300px auto;
@@ -28,3 +39,7 @@ div{
 	overflow:auto;
 	padding-bottom:100px;
 }
+
+
+
+
