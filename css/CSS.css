@@ -4,16 +4,15 @@ body{
 	margin:0px;
 }
 
-div{
-    
-    background-color: #111111;
+div{    
+    background-color: #0d0d0d;
     color: white;
     margin: 90px 0 90px 0;
     padding: 20px;
 }
 h2 {
     display: block;
-    font-size: 1.7em;
+    font-size: 3em;
     margin-top: 0.83em;
     margin-bottom: 0.83em;
     margin-left: 0;
@@ -22,30 +21,56 @@ h2 {
 }
 #header{
 	width:864px;
-	height:115px;
+	height:60px;
 	background:#333333;
 	padding:0px 43px;
 	position: fixed;
 	top:0px;
 	left:50%;
 	margin: 0 0 0 -475px;
+	font-family: 
 }
+
+
 #header #main-menu{
 	float:right;
- 	padding-top:45px;
+ 	padding-top:17px;	
 }
 #header #main-menu li{
 	float:left;
-	font-color: #444444;
 	list-style:none;
 	margin-left:27px;
-	font: 400 16px/20px  Georgia, serif;
+	color: white;
+	font: 500 17px/20px Courier New;
+	font-weight: bold;	
 }
+#logo{
+	padding-top:1px;
+	float:left;
+	font: 400 20px/20px algerian;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: #ffffff;
+}
+
+a:hover {
+    text-shadow: 2px 2px #4d4d4d;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
 
 #container{
 	width:950px;
 	margin:0px auto 300px auto;
-	background-color:#222222;
+	background-color:#1a1a1a;
 	overflow:auto;
 	padding-bottom:100px;
 }
