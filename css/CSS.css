@@ -2,6 +2,9 @@ body{
 	
 	background-image: url("../imgs/Contentcolor.png");
 	margin:0px;
+	font: 400 12px/22px 'Open Sans', Verdana, Helvetica, sans-serif;
+	color:#6a6969;
+
 }
 
 div{    
@@ -9,6 +12,7 @@ div{
     color: white;
     margin: 120px 0 70px 0;
     padding: 5px;
+    color:#6a6969;
 }
 h2 {
     display: block;
