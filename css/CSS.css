@@ -7,7 +7,7 @@ body{
 div{    
     background-color: #222222;
     color: white;
-    margin: 70px 0 50px 0;
+    margin: 120px 0 70px 0;
     padding: 5px;
 }
 h2 {
@@ -40,13 +40,13 @@ h2 {
 	list-style:none;
 	margin-left:10px;
 	color: white;
-	font: 200 15px/20px Courier New;
+	font: 400 15px/20px Courier New;
 	font-weight: bold;	
 }
 #logo{
 	padding-top:4px;
 	float:left;
-	font: 200 13px/20px algerian;
+	font: 400 12.5px/20px algerian;
 }
 	<!----------------Link-------------->
 
