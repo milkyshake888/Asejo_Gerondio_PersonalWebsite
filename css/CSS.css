@@ -22,7 +22,7 @@ h2 {
 #header{
 	width:864px;
 	height:75px;
-	background:#333333;
+	background:#262626;
 	padding:0px 43px;
 	position: fixed;
 	top:0px;
@@ -75,6 +75,7 @@ a:active {
 	padding-bottom:100px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 <!---Divider-->
 .top-divider, .bottom-divider{
 	width:100%;
@@ -88,6 +89,9 @@ a:active {
 .bottom-divider{
 	margin-top:40px;
 }
+<!---ABOUT ME-->
+
+
 
 
 
