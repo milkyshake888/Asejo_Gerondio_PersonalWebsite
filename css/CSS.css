@@ -89,8 +89,11 @@ a:active {
 .bottom-divider{
 	margin-top:40px;
 }
-<!---ABOUT ME-->
-
+.footer {
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 10px;
+}
 
 
 
