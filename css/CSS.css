@@ -32,7 +32,7 @@ h2 {
 
 #header{
 	width:864px;
-	height:69px;
+	height:80px;
 	background:#262626;
 	padding:0px 43px;
 	position: fixed;
@@ -46,19 +46,19 @@ h2 {
 
 #header #main-menu{
 	float:right;
- 	padding-top:18px;	
+ 	padding-top:25px;	
 }
 #header #main-menu li{
 	float:left;
 	list-style:none;
-	margin-left:10px;
-	font: 400 15px/20px Courier New;
+	margin-left:5px;
+	font: 400 16px/20px Courier New;
 	font-weight: bold;
 }
 #logo{
-	padding-top:2px;
+	padding-top:8px;
 	float:left;
-	font: 300 12.5px/20px algerian;
+	font: 300 14px/20px algerian;
 }
 	<!----------------Link-------------->
 
