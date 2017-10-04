@@ -24,6 +24,10 @@ div{
  	padding-top: 0;
 	margin: 10px 90px 50px 70px;
 }
+img{
+	position : abosolute;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 h2 {
     display: block;
     font-size: 2.5em;
@@ -61,10 +65,10 @@ h2 {
 	font-weight: bold;
 }
 #logo{
-	margin: 0 0 0 -5;
-	padding-top:8px;
+	margin: 0 0 0 -30px;
+	padding-top:22px;
 	float:left;
-	font: 300 14px/20px algerian;
+	font: 300 15px/20px algerian;
 }
 	<!----------------Link-------------->
 
