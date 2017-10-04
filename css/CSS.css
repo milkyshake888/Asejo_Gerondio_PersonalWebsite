@@ -6,7 +6,15 @@ body{
 	color:#6a6969;
 
 }
-
+#container{
+	width:950px;
+	margin:0px auto 300px auto;
+	background-color:#1a1a1a;
+	overflow:auto;
+	padding-bottom:100px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+<!----------------------------------------------Div----->
 div{    
     background-color: #222222;
     margin: 70px 0 70px 0;
@@ -24,10 +32,12 @@ div{
  	padding-top: 0;
 	margin: 10px 90px 50px 70px;
 }
+<!----------------------------------------------image------->
 img{
 	position : abosolute;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+<!---------------------------------------------------header--------->
 h2 {
     display: block;
     font-size: 2.5em;
@@ -69,6 +79,7 @@ h2 {
 	padding-top:22px;
 	float:left;
 	font: 300 15px/20px algerian;
+	
 }
 	<!----------------Link-------------->
 
@@ -93,18 +104,7 @@ a{
 	text-decoration: none;
 	color: #000000;	
 }
-
-
-#container{
-	width:950px;
-	margin:0px auto 300px auto;
-	background-color:#1a1a1a;
-	overflow:auto;
-	padding-bottom:100px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-		<!---Divider-->
+<!-----------------------------Divider-->
 
 .top-divider, .bottom-divider{
 	width:100%;
@@ -123,5 +123,53 @@ a{
 	text-align: center;
 	padding: 10px;
 }
+<!-------------------------------------------------Gallery-------------------------->
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 <!----END---->
 
