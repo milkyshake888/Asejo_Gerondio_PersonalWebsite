@@ -32,7 +32,7 @@
 	<div id="header" class="div">
 	<p id="logo"><a href="#"><img src="imgs/Icon.png" width=30 height=30>|Personal Website &nbsp</a></p>	
 	<ul id="main-menu">
-    	<li><a href="#About Me">&nbsp About Me &nbsp</a></li>
+    	<li><a href="#About">&nbsp About Me &nbsp</a></li>
         <li><a href="#Skills">&nbsp Skills &nbsp</a></li>
         <li><a href="#Work">&nbsp Work &nbsp</a></li>
 	<li><a href="#Interest">&nbsp Interest &nbsp</a></li>
@@ -47,8 +47,8 @@
 	<center><a><img src="imgs/banner.png" alt="banner" align="middle" width=950 height=500></a></center>
 	</p>
 <!----------------------------------------------------------------About Me---------------------------------->
-	<div id="About Me">
-	<br><br>
+	<div id="About">
+	<br><br><br>
 	<h2>About Me</h2>
 	
        	<img src="imgs/Icons/Facebook.png" alt="FB icon" width=25 height=25>
@@ -77,7 +77,7 @@
 	</div>
 <!----------------------------------------------------------------Skills---------------------------------->
 	<div id="Skills">
-	<br><br>
+	<br><br><br>
 	<h2>Skills</h2>
 	<div class="bottom-divider"></div>
 	<div class="p">
@@ -92,7 +92,7 @@
 	</div>
 <!--------------------------------------------------------------------Work---------------------------------->
 	<div id="Work">
-	<br><br>
+	<br><br><br>
 	<h2>Work</h2>
 	<div class="bottom-divider"></div>
 	<center><h3>No working experience</h3></center>
@@ -100,7 +100,7 @@
 	</div>
 <!-----------------------------------------------------------------------Interest---------------------------------->
 	<div id="Interest">
-	<br><br>
+	<br><br><br>
 	<h2>Interest</h2>
 	<div class="bottom-divider"></div>
 
@@ -110,21 +110,24 @@
 
 <!-------------------------------------------------------------------------Contacts---------------------------------->
 	<div id="contact">
-	<br><br>
+	<br><br><br>
     	<h2>Contact</h2>
 	<div class="bottom-divider"></div>
-
+	<div class="p">
+	<p>
 	<a href="https://www.facebook.com/TheyAsejo"><img src="imgs/Icons/Facebook.png" alt="FB icon"  width=30 height=30></a>
 	<a href="#" class="icon"><img src="imgs/Icons/Instagram.png" alt="Insta icon"  width=30 height=30></a>
 	<a href="#" class="icon"><img src="imgs/Icons/Twitter.png" alt="Twitter icon"  width=30 height=30></a>
 	<a href="https://www.youtube.com/channel/UCrUYPHC7lhbJlnr37PAyKSQ?view_as=subscriber" class="icon"><img src="imgs/Icons/Youtube.png" alt="Youtube icon"  width=30 height=30></a>
 	<a href="https://plus.google.com/u/1/112382525913574313107" class="icon"><img src="imgs/Icons/Google+.png" alt="Google+ icon"  width=30 height=30></a>
 	<a href="https://github.com/theyasejo/Asejo_Gerondio_PersonalWebsite" class="icon"><img src="imgs/Icons/Github.png" alt="Github icon"  width=30 height=30></a>
+	</p>
+	</div>
 	<div class="bottom-divider"></div>
 	</div>
 <!-------------------------------------------------------------------Gallery---------------------------------->
 	<div id="Gallery">
-	<br><br>
+	<br><br><br>
 	<h2>Gallery</h2>
 	<div class="bottom-divider"></div>
 
@@ -138,6 +141,7 @@
 	<div class="footer"><p>2017 PERSONAL WEBSITE, ALL RIGHTS RESERVED</p></div>
 
 <!------------------------------------------------------ The JavaScript ------------------->  
+<script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js?ver=3.3"></script>
 <script>
 // When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
@@ -155,6 +159,16 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+$('a[href^="#"]').click(function(){
+
+var the_id = $(this).attr("href");
+
+    $('html, body').animate({
+        scrollTop:$(the_id).offset().top
+    }, 1000);
+
+return false;});
 </script>
 
 
