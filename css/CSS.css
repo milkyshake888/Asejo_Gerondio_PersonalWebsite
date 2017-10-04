@@ -13,6 +13,7 @@ div{
     margin: 120px 0 70px 0;
     padding: 5px;
     color:#6a6969;
+    
 }
 h2 {
     display: block;
@@ -28,19 +29,21 @@ color:#6a6969;
 }
 #header{
 	width:864px;
-	height:75px;
+	height:69px;
 	background:#262626;
 	padding:0px 43px;
 	position: fixed;
 	top:0px;
 	left:50%;
-	margin: 0 0 0 -475px; 
+	margin: 0 0 0 -475px;
+	opacity: 0.95;
+	filter: alpha(opacity=100); 
 }
 
 
 #header #main-menu{
 	float:right;
- 	padding-top:17px;	
+ 	padding-top:18px;	
 }
 #header #main-menu li{
 	float:left;
@@ -51,7 +54,7 @@ color:#6a6969;
 	font-weight: bold;	
 }
 #logo{
-	padding-top:4px;
+	padding-top:2px;
 	float:left;
 	font: 400 12.5px/20px algerian;
 }
