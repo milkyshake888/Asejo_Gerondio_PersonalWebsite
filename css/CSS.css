@@ -49,14 +49,14 @@ color:#6a6969;
 	float:left;
 	list-style:none;
 	margin-left:10px;
-	color: white;
+	font-color: #000000;
 	font: 400 15px/20px Courier New;
 	font-weight: bold;	
 }
 #logo{
 	padding-top:2px;
 	float:left;
-	font: 400 12.5px/20px algerian;
+	font: 300 12.5px/20px algerian;
 }
 	<!----------------Link-------------->
 
@@ -106,17 +106,17 @@ a{
 	margin-top:40px;
 }
 .footer {
-    background-color: #262626;
-    text-align: center;
-    padding: 10px;
+	background-color: #262626;
+	text-align: center;
+	padding: 10px;
 }
 <!----About---->
-#about #top-social .icon{
-	text-indent:-9999px; 
-	display:block; 
-	width:26px; 
-	height:26px; 
+.icon{
+	width:50;
+	height:50;
+	 
 }
+
 
 
 
