@@ -15,6 +15,14 @@ body{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 <!----------------------------------------------Div----->
+
+
+div{    
+    background-color: #222222;
+    margin: 70px 0 70px 0;
+    padding: 5px;
+    color:#6a6969;   
+}
 div{    
     background-color: #222222;
     margin: 70px 0 70px 0;
@@ -32,13 +40,28 @@ div{
  	padding-top: 0;
 	margin: 10px 90px 50px 70px;
 }
+
 <!----------------------------------------------image------->
 img{
 	position : abosolute;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+img{
+	position : abosolute;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 <!---------------------------------------------------header--------->
-h2 {
+
+h2{
+    display: block;
+    font-size: 2.5em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+h2{
     display: block;
     font-size: 2.5em;
     margin-top: 0.8em;
@@ -123,53 +146,26 @@ a{
 	text-align: center;
 	padding: 10px;
 }
-<!-------------------------------------------------Gallery-------------------------->
-div.gallery {
-    border: 1px solid #ccc;
+<!-------------------------Gallery---------------->
+#work{
+	margin:0px 43px;
+	padding-top:115px;
+	width: 200;
+	height: 200;
+}
+#work .content{
+	overflow:auto;
+}
+#work #work-thumbs li{
+	list-style:none;
+	float:left;
+	margin:0px 20px 15px 0px;
+	padding:0px;
+}
+#work #work-thumbs li.last{
+	margin:0px;
 }
 
-div.gallery:hover {
-    border: 1px solid #777;
-}
-
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 <!----END---->
 
