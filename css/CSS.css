@@ -147,24 +147,25 @@ a{
 	padding: 10px;
 }
 <!-------------------------Gallery---------------->
-#work{
+#gal{
 	margin:0px 43px;
 	padding-top:115px;
-	width: 200;
-	height: 200;
 }
-#work .content{
+#gal .content{
 	overflow:auto;
 }
-#work #work-thumbs li{
+#gal #gal-thumbs li{
 	list-style:none;
 	float:left;
 	margin:0px 20px 15px 0px;
 	padding:0px;
+	text-decoration: none;
 }
-#work #work-thumbs li.last{
+#gal #gal-thumbs li.last{
 	margin:0px;
+	
 }
+<!-------------------------Contact---------->
 
 
 <!----END---->
